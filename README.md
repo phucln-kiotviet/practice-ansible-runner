@@ -16,3 +16,16 @@
 ## Runner object
 
 - `rc` return code of ansible process
+- `status` can be one of:
+  - `unstarted`: runner task has been created but hasn't actually started yet.
+  - `successful`
+  - `failed`
+
+
+- Some property:
+  - ansible_runner.runner.Runner.stdout
+  - ansible_runner.runner.Runner.stderr
+  - ansible_runner.runner.Runner.events
+  - ansible_runner.runner.Runner.stats
+  - ansible_runner.runner.Runner.host_events
+  - 
